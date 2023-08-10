@@ -5,8 +5,8 @@ declare global {
     interface ProcessEnv {
       NEXT_PUBLIC_GOOGLE_MAPS_API_KEY: string;
       REACT_APP_SERVER: string;
-      GOOGLE_CLIENT_ID: string;
-      GOOGLE_CLIENT_SECRET: string;
+      NEXT_PUBLIC_GOOGLE_CLIENT_ID: string;
+      NEXT_PUBLIC_GOOGLE_CLIENT_SECRET: string;
     }
   }
 }
