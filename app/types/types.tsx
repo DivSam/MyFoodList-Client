@@ -1,6 +1,7 @@
 import { PlaceDetail } from "../lib/googleApiClient";
 
 export interface Review {
+    id?: string;
     "sessionEmail": string;
     "name": string;
     "address": string;
