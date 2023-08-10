@@ -77,7 +77,7 @@ export const Form = (props: FormProps) => {
         };
 
         //ignore error caused by this, TS is just acting up
-        await fetch(`https://food-guide-392203.nn.r.appspot.com/${props.reviewData?.id}`, requestOptions); 
+        await fetch(`https://food-guide-392203.nn.r.appspot.com/review/${props.reviewData?.id}`, requestOptions); 
         setResetState(prevState => !prevState);
         props.onEditModeChange(false);
         form.reset();
